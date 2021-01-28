@@ -76,12 +76,44 @@ main ul li {
 }
 
 /* no margin for lh-panel */
-#lh-panel {
+
+/* challenge 2 boxes */
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  color: white;
+  margin: 10px;
+}
+
+#lh-panel-1 {
   padding: 10px;
   width: 93%;
   border: 2px solid black;
   margin-left: 10px;
   margin-bottom: 14px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#lh-panel-2 {
+  padding: 10px;
+  width: 93%;
+  border: 2px solid black;
+  margin-left: 10px;
+  margin-bottom: 14px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#lh-panel-3 {
+  padding: 10px;
+  width: 93%;
+  border: 2px solid black;
+  margin-left: 10px;
+  margin-bottom: 14px;
+  display: flex;
 }
 
 #rh-panel {
