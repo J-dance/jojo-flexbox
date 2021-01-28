@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+  background-color: black;
+  position: relative;
+  height: 50px;
+}
+
+nav header {
+  background-color: green;
+  width: 190px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  height: 50px;
+}
+
+.link {
+  margin: 50px;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0px;
+  list-style-type: none;
+  display: flex;
+
+}
+
+nav ul li {
+  padding: 60px;
+}
+
+li:hover {
+  color: red;
+}
+
+
+/* main section */
+
+main {
+  display: flex;
+  justify-content: center;
+  width: 95%;
+  height: 400px;
+  margin: 25px;
+}
+
+main ul li {
+  padding: 5px;
+  list-style-position: inside;
+  padding-left: 30px;
+}
+
+#panel-1 {
+  width: 70%;
+}
+
+/* no margin for lh-panel */
+#lh-panel {
+  padding: 10px;
+  width: 93%;
+  border: 2px solid black;
+  margin-left: 10px;
+  margin-bottom: 14px;
+}
+
+#rh-panel {
+  width: 30%;
+  height: 100%;
+  border: 2px solid black;
+  padding: 10px;
+  
+}
+
+main p {
+  margin-top: 10px;
+}
+
+main li {
+  padding: 10px;
+}
+
